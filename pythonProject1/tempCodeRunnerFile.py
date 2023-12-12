@@ -34,33 +34,3 @@ print(s.split())  # Salida: ['Hola', 'mundo!']
 nombre = "Python"
 mensaje = "Hola, {}!"
 print(mensaje.format(nombre))  # Salida: "Hola, Python!"
-
-regalos = 123
-alumnos = 25
-
-regalos_persona = regalos // alumnos
-print(f'regalos por persona {regalos_persona}')
-print(f'regalos por persona {regalos // alumnos}')
-
-password = input('introduce contraseña: ')
-password_correct = 'admin'
-print(password == password_correct)
-
-email = input('introduce Email: ').lower()
-print(email)
-email_correct = 'a@a.a'
-print(email_correct)
-print(email == email_correct)
-print(email!=email_correct)
-
-# if password!=password_correct:
-#     print('OK?', password!=password_correct)
-
-print('OK?', password!=password_correct)
-print('OK?', password==password_correct)
-
-print(email)
-print(password)
-print(email_correct)
-print(password_correct)
-print('Pasas? ', password==password_correct and email==email_correct)
