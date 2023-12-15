@@ -15,6 +15,6 @@ def validate_email(email):
 try:
     validate_email("alan@example.com")
 except Exception as e:
-    print("Error capturado")
+    print("Error capturado", e)
 
 print("fin")

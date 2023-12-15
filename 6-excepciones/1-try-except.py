@@ -12,7 +12,7 @@ try:
     num1 = int(input("Introduce un numero:"))
     num2 = int(input("Introduce otro numero:"))
     lista = [1, 2, 3, 4]
-    print(lista[676])
+    # print(lista[676])
     result = num1 / num2
 except ValueError:
     print("ValueError1: formato de número incorrecto.")
