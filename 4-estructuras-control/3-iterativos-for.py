@@ -3,7 +3,7 @@ text = "tesla"
 
 for char in text:
     print(char)
-    break
+    # break
 
 print("bye")
 

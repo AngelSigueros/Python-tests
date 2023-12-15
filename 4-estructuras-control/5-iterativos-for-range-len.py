@@ -7,3 +7,6 @@ longitud = len(text)
 
 for i in range(len(text)):
     print(text[i])
+    
+for c in text:
+    print(c)
