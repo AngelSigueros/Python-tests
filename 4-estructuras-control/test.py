@@ -1,3 +1,11 @@
+
+vehis=['c1', 'c2', 'c3', 'c4']
+
+for coche in vehis:
+    if coche.endswith('3'):
+        continue
+    print(coche)
+    
 password = 'admin'
 password_user = ''
 
