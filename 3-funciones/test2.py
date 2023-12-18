@@ -9,6 +9,7 @@ def contar_vocales(texto):
     for c in texto:
         if c.lower() in vocales: # c in 'aeiouAEIOUáéíóúÁÉÍÓÚäëïöüÄËÏÖÜ'
             total+=1
+    
     return total
 
 def contar_vocales_2(texto):
@@ -18,10 +19,10 @@ def contar_vocales_2(texto):
         texto (string): Texto para contar las vocales
     """
     total=0
-    vocales = ['a', 'e', 'i', 'o', 'u']
     for c in texto:
         if c in 'aeiouAEIOUáéíóúÁÉÍÓÚäëïöüÄËÏÖÜ':
-            total+=1
+           total+=1 
+    
     return total
 
 resultado1= contar_vocales('Alän')
