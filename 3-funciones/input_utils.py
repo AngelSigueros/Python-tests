@@ -40,5 +40,5 @@ def read_bool(prompt):
                       
 # edad_int = read_int('Introduce int: ')
 # edad_float = read_float('Introduce float: ')
-edad_bool = read_bool('Introduce bool: ')
-print(edad_bool)
+# edad_bool = read_bool('Introduce bool: ')
+# print(edad_bool)
